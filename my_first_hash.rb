@@ -45,8 +45,8 @@ def adding
   
 H = Hash["muskets" => 2, "gun powder" => 4]
 
-puts "#{H['a']}"
-puts "#{H['b']}"
+puts "#{H['muskets']}"
+puts "#{H['gun powder']}"
   
   # return the shipping_manifest hash below
 
