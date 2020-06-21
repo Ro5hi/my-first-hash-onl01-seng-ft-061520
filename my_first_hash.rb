@@ -44,7 +44,7 @@ def adding
   # add 4 gun powder to the shipping_manifest hash below
   
 shipping_manifest = hash.new 
-puts 
+puts "#{muskets}"
   
 
 hash = {"gun powder" => "4" }
