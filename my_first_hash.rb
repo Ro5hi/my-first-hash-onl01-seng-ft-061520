@@ -43,9 +43,10 @@ def adding
   # add 2 muskets to the shipping_manifest hash below
   # add 4 gun powder to the shipping_manifest hash below
   
-shipping_manifest = hash.new 
-puts "#{muskets[2]}"
-puts "#{gun powder[4]}"
+H = Hash["muskets" => 2, "gun powder" => 4]
+
+puts "#{H['a']}"
+puts "#{H['b']}"
   
   # return the shipping_manifest hash below
 
