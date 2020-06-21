@@ -45,8 +45,8 @@ def adding
   
 shipping_manifest = ["muskets" => 2, "gun powder" => 4]
 
-puts "#{H['muskets']}"
-puts "#{H['gun powder']}"
+puts "#{['muskets']}"
+puts "#{['gun powder']}"
   
   # return the shipping_manifest hash below
 
